@@ -122,7 +122,7 @@ nav ul li{
 }
 main{
     max-width: 1140px;
-    margin: 130px 230px;
+    margin: 130px 230px 113px 230px;
 }
 .about{
     border-radius: 10px;
@@ -223,5 +223,47 @@ main>section>h3{
 .d3{
     font-size: 16px;
     color: #757575;
+}
+.foot{
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+    gap: 117px;
+}
+.fh{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 28px;
+}
+#is{
+    margin-bottom: 24px;
+    width: 461px;
+    height: 64px;
+    padding-left: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #757575;
+}
+#is2{
+    margin-bottom: 24px;
+    width: 461px;
+    height: 180px;
+    padding-left: 30px;
+    padding-top: 18px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #757575;
+}
+.d4{
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #474747;
+}
+#im{
+    margin-right: 24px;
+    width: 24px;
+    height: 24px;
 }
  
