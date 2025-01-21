@@ -266,4 +266,15 @@ main>section>h3{
     width: 24px;
     height: 24px;
 }
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px){
+    .skill-container{
+        flex-direction: column;
+    }
+    .skill{
+        padding: 0;
+    }
+}
  
