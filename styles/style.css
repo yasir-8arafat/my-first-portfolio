@@ -7,6 +7,7 @@
 }
 *{
     margin: 0;
+    padding: 0;
 }
 .section-title{
     font-size: 35px;
@@ -31,11 +32,11 @@
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    padding: 0 0 50px 0px;
+    padding-bottom: 50px;
     margin-left: 20px;
 }
 .nav{
-    margin: 59px 179px 0px 221px;
+    margin: 50px 179px 0px 221px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -122,9 +123,10 @@ nav ul li{
 }
 main{
     max-width: 1140px;
-    margin: 130px 230px 113px 230px;
+    margin: 0 auto;
 }
 .about{
+    margin-top: 100px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -266,6 +268,12 @@ main>section>h3{
     width: 24px;
     height: 24px;
 }
+.ex{
+    margin-left: 35px;
+}
+.ed{
+    margin-right: 35px;
+}
 .hide{
     display: none;
 }
@@ -274,7 +282,33 @@ main>section>h3{
         flex-direction: column;
     }
     .skill{
-        padding: 0;
+        margin: 0 auto;
+    }
+    .ed-ex{
+        flex-direction: column;
+    }
+    .ed{
+        margin: 0 15px;
+    }
+    .ex{
+        margin: 0 15px;
+    }
+    .D0{
+        padding: 10px;
+    }
+    .foot{
+        flex-direction: column-reverse;
+        padding: 100px 20px;
+    }
+    #is,#is2{
+        width: auto;
+    }
+    .pid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .about{
+        margin: 0 15px;
     }
 }
  
